@@ -1,0 +1,264 @@
+#head{
+    padding-top: 5%;
+}
+#About{
+    color: green;
+    font-size: xxx-large;
+    font-weight: 600;
+    font-family: cursive;
+}
+.home-list-pop {
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    padding: 15px 0px;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.07);
+    border: 1px solid #f1f2f3;
+}
+.list-spac {
+    margin: 15px;
+    padding: 15px 0px;
+    margin-bottom: 15px !important;
+}
+.pt-75 {
+    padding-top: 0px;
+}
+.pb-0 {
+    padding-bottom: 0px;
+}
+
+.com-padd {
+
+    padding: 80px 0;
+}
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+element.style {
+    margin-bottom: 20px;
+}
+.com-title {
+    margin-bottom: 0px;
+}
+.com-title {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.com-title h2 {
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+    margin-top: 0px;
+    font-weight: 600;
+    font-size: 42px;
+    text-transform: capitalize;
+}
+h2 {
+    text-align: center;
+}
+.com-title h2 span {
+    position: relative;
+}
+.com-title h2 span {
+    font-weight: 600;
+    font-size: 42px;
+    color: #2a2b33;
+}
+.com-title h2 span.style-left:before {
+    position: absolute;
+    content: '';
+    background-color: #EF6022;
+    height: 2px;
+    width: 15px;
+    top: 29px;
+    right: 30px;
+}
+.com-title {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.com-title h2 span.style-left:after {
+    position: absolute;
+    content: '';
+    background-color: #EF6022;
+    height: 2px;
+    width: 30px;
+    top: 35px;
+    right: 30px;
+}
+.com-title h2 span.style-right:before {
+    position: absolute;
+    content: '';
+    background-color: #EF6022;
+    height: 2px;
+    width: 15px;
+    top: 29px;
+    left: 30px;
+}
+.com-title h2 span.style-right:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 30px;
+    top: 35px;
+    left: 30px;
+}
+#Overview{
+    color: green;
+    font-size: xxx-large;
+    font-weight: 600;
+    font-family: cursive;
+}
+.home-list-pop {
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    padding: 15px 0px;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.07);
+    border: 1px solid #f1f2f3;
+}
+.list-pg-inn-sp {
+    padding: 10px;
+}
+.home-list-pop img {
+    height: auto;
+}
+#Vision{
+    color: green;
+    font-size: xxx-large;
+    font-weight: 600;
+    font-family: cursive;
+}
+#Mission{
+    color: green;
+    font-size: xxx-large;
+    font-weight: 600;
+    font-family: cursive;
+}
+.roundimg{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+.roundimg2{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+.roundimg3{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border-color: black;
+}
+.oshoimg{
+    height: 500px;
+    width: 500px;
+}
+.benjaminimg{
+    height: 500px;
+    width: 500px;
+}
+.friendsimg{
+    height: 500px;
+    width: 500px;
+}
+input.checkbox_class{
+    width: 15px;
+    height: 15px;
+}
+.asterick::after{
+    content: "*";
+    color: red
+}
+.signup{
+    border :50px;
+    padding: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: solid white;
+    background-repeat: no-repeat;
+    background-size: 20%;
+}
+
+
+table, th, td {
+
+    border: 1px solid black;
+    
+    border-collapse: collapse;
+    
+    }
+.button{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: green;
+}
+#OP1{
+    color: red;
+}
+#OP2{
+    color: red;
+}
+#OP3{
+    color: red;
+}
+#OP4{
+    color: red;
+}
+#OP5{
+    color: red;
+}
+#OP6{
+    color: red;
+}
+#OP7{
+    color: red;
+}
+#OP8{
+    color: red;
+}
+#OP9{
+    color: red;
+}
+#OP10{
+    color: red;
+}
+#OP11{
+    color: red;
+}
+label.error {
+  color: red;
+  font-size: 1rem;
+  display: block;
+  margin-top: 5px;
+}
+
+input.error , textarea.error{
+  border: 1px solid black;
+  font-weight: 300;
+  color: red;
+}

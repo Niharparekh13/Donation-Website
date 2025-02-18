@@ -1,0 +1,62 @@
+<%- include("partials/header.ejs") %>
+
+<style>
+  .container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  h1 {
+    color: green;
+  }
+
+  .no-donations, .donor-name, .donation-amount {
+    color: green;
+  }
+
+  .donation-list {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .donation-item {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+  }
+
+  .donor-name {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  .donation-amount {
+    font-style: italic;
+  }
+</style>
+
+<div class="container">
+  <h1>Previous Donations</h1>
+
+  <% if (noDonations) { %>
+    <p class="no-donations">You have not made any previous donations.</p>
+  <% } else { %>
+    <ul class="donation-list">
+      <% donations.forEach(function(donation) { %>
+        <li class="donation-item">
+          <span class="donation-amount">Amount: $<%= donation.amount %></span>
+        </li>
+      <% }); %>
+    </ul>
+  <% } %>
+</div>
+
+
+
+
+<%- include("partials/footer.ejs") %>
